@@ -9,7 +9,7 @@ if not os.path.exists("movies_list.pkl") or not os.path.exists("similarity.pkl")
     try:
         pm.execute_notebook(
             "Main.ipynb",  
-            "Main_output.ipynb" 
+            "Main_output.ipynb",
             kernel_name="python3"
         )
         st.success("Model files generated successfully!")
