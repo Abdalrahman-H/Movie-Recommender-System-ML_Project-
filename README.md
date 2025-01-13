@@ -27,7 +27,7 @@ The project is organized as follows:
 
 # Project Link
 
-[![Visit Website](https://movie-recommender-system-eng-abdelrahman-h-al-khatib.streamlit.app/)]
+[Visit Website](https://movie-recommender-system-eng-abdelrahman-h-al-khatib.streamlit.app/)
 
 ## Installation and Usage
 
