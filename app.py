@@ -2,9 +2,8 @@ import streamlit as st
 import pickle
 import requests
 import os
-import papermill as pm  # لتشغيل Notebook
+import papermill as pm 
 
-# التحقق من وجود ملفات pkl
 if not os.path.exists("movies_list.pkl") or not os.path.exists("similarity.pkl"):
     st.write("Generating model files from main.ipynb...")
     try:
