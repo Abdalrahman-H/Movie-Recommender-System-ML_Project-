@@ -5,3 +5,4 @@ requests
 papermill
 ipykernel
 jupyter
+pickle
