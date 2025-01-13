@@ -1,6 +1,21 @@
 import streamlit as st
 import pickle
 import requests
+import os
+import papermill as pm  # لتشغيل Notebook
+
+# التحقق من وجود ملفات pkl
+if not os.path.exists("movies_list.pkl") or not os.path.exists("similarity.pkl"):
+    st.write("Generating model files from main.ipynb...")
+    try:
+        pm.execute_notebook(
+            "Main.ipynb",  
+            "Main_output.ipynb" 
+        )
+        st.success("Model files generated successfully!")
+    except Exception as e:
+        st.error(f"Error while executing the notebook: {e}")
+        st.stop()
 
 def fetch_poster(movie_id):
      url = "https://api.themoviedb.org/3/movie/{}?api_key=c7ec19ffdd3279641fb606d19ceb9bb1&language=en-US".format(movie_id)
