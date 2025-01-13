@@ -35,6 +35,7 @@ Contributions to this project are welcome. If you find any issues or have sugges
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## Acknowledgments ❤️
 - The movie dataset used in this project was obtained from [].
-- Special thanks to [Mostafa Safwat] for their valuable contributions to this project.
+- Special thanks to [@Mostafa Safwat] ❤️(https://github.com/Mostafa-Safwat) for their contributions to this project!
+
